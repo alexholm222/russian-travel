@@ -1,0 +1,7 @@
+.photo-grid__item {
+  list-style-type: none;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}

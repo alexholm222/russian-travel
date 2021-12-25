@@ -1,0 +1,9 @@
+.header__links {
+  margin: 46px 0 0;
+}
+
+@media screen and (max-width: 767px) {
+  .header__links {
+    margin-top: 30px;
+  }
+}
