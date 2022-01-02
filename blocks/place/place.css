@@ -3,7 +3,7 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: 460px 484px;
-  grid-template-rows: max-content 460px;
+  grid-template-rows: repeat(2, max-content);
   gap: 48px 40px;
   color: #FFFFFF;
 }
@@ -11,16 +11,14 @@
 @media screen and (max-width: 1279px) {
   .place {
   grid-template-columns: 440px 456px;
-  grid-template-rows: max-content 440px;
-  gap: 48px 32px;
+  column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place {
     grid-template-columns: 340px 352px;
-    grid-template-rows: repeat(2 max-content);
-    gap: 48px 28px;
+    column-gap: 28px;
   }
 }
 

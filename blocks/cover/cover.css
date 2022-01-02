@@ -9,7 +9,10 @@
   align-items: center;
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
-  color: #FFFFFF;
+}
+
+.cover:hover .cover__overlay {
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 1440px) {
